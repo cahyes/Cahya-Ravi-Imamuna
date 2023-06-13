@@ -1,0 +1,73 @@
+.about-section .container,
+.resume-section .container,
+.portfolio-section .container,
+.contact-section .container {
+  padding: 50px 0;
+}
+
+.portfolio-section,
+.contact-section {
+  background-color: #f8f8f8;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.cards-wrapper .row {
+  flex-wrap: nowrap;
+}
+
+.cards-wrapper .col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.3333%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.prev-button,
+.next-button {
+  /* display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); */
+  font-size: 3rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.prev-button {
+  left: 0;
+  margin-left: 30%;
+}
+
+.next-button {
+  right: 0;
+  margin-left: 35%;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer p {
+  padding: 0;
+  margin: 0;
+}
