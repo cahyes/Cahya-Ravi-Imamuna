@@ -1,8 +1,9 @@
-.about-section .container,
-.resume-section .container,
-.portfolio-section .container,
-.contact-section .container {
-  padding: 50px 0;
+.about-section,
+.resume-section,
+.portfolio-section,
+.contact-section {
+  margin: -50px 0;
+  padding: 90px 0;
 }
 
 .portfolio-section,
@@ -64,6 +65,14 @@
   margin-left: 35%;
 }
 
+.next-button:hover,
+.prev-button:hover {
+  color: darkorange;
+}
+
+a {
+  text-decoration: none;
+}
 footer {
   padding: 20px 0;
 }
